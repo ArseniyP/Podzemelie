@@ -2,9 +2,12 @@
 #include <conio.h>
 #include <cstdlib>
 #include <ctime>
+#include <cmath>
 using namespace std;
 
-const int xc=32; //длина матрицы константой
+//длина матрицы константой
+const int xc=32;
+
 const int yc=22; //высота матрицы константой
 int yX[yc][xc]={  //заполнение лабиринта
 	10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10,
